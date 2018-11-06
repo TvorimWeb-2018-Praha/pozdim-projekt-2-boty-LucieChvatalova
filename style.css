@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
 }
 
 /*
@@ -21,3 +22,138 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+    width: 670px;
+    height: 440px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.2);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 9px;
+    color: white;
+    
+}
+.vizual {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: linear-gradient(#06d7c1,#50cc49);
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    }
+
+.bota {
+    position: absolute;
+    left: -85px;
+    }
+
+.cenovka {
+    position:absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+    }
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    }
+
+.zaruka {
+    font-size: 12px;
+    }
+
+.detaily {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    }
+
+.nazev {
+    font-size: 20px;
+    font-weight: 650;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 auto;
+}
+
+.produkt {
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+
+.popis {
+    margin: 30px 0;
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px solid #06d7c1;
+    padding-bottom: 30px;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+
+li {
+    display: inline-block;
+    padding: 0 7px 0 7px;
+}
+
+.velikosti a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.velikosti a:hover{
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 180px;
+    font-weight: 600;
+}
+
+.akce {
+    position: absolute;
+    bottom: 30px;
+    display: block;
+    border-radius: 9px;
+    background-color: #f15f42;
+    text-transform: uppercase;
+    box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.2);
+}
+
+.tlacitko {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 35px;
+}
